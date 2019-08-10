@@ -1,0 +1,38 @@
+public class Taller_4 {
+    public static void main(String[] args) {
+        //Ejercicio1:
+        System.out.println(ArrayMax(new int[]{1, 2, 3, 4, 5}, 5));
+        //Ejercicio2:
+        System.out.println(GroupSum(0, new int[]{2,4,5},9));
+        //Ejercicio3:
+         System.out.println(fibonacci(6));
+    }
+
+    public static int ArrayMax(int array[], int n)
+    {
+        if(n==0)
+        {
+            return array[n];
+        }else
+        {
+            return array[n] + ArrayMax(array, n-1);
+        }
+    }
+
+    public static boolean GroupSum(int start, int[] nums, int target) {
+        if (start >= nums.length) return target == 0;
+        return GroupSum(start + 1, nums, target - nums[ start ])
+                || GroupSum( start +1 , nums, target);
+    }
+
+    public static long fibonacci(int n)
+    {
+        if(n==0||n==1)
+        {
+            return n;
+        }else
+        {
+            return fibonacci(n-1)+fibonacci(n-2);
+        }
+    }
+}
