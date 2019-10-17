@@ -1,0 +1,29 @@
+4) Simulacro de Parcial
+ 
+ 4.1 
+ a). altura(raiz.izq)
+ b). altura(raiz.der)
+ 4.2 C) 3.
+ 
+ 4.3 a). false b). a.dato c). a.izq, suma - a.dato d). a.der, suma - a.dato
+ 4.6 
+4.6.2 return 0
+4.6.3 == 0
+ 4.7
+4.7.1 A) 0, 2, 1, 7, 5, 10, 13, 11, 9, 4
+4.7.2 D) 8
+ 4.8  B) 2.
+ 4.9  A) 5, 3, 6, 1, 7, 4, 8, 0, 2
+ 4.10 B). No.
+ 4.11
+4.11.1 B). 2, 3, 4, 0, 5, 7, 6
+4.11.2 A). 5
+4.11.3 B). No
+ 4.12
+4.12.1 I) A=1, B=2, C=3,…
+4.12.2 A) G, D, B, A, C, E, F, I, H, J
+4.12.3 A) O(n) porque puede ser un árbol
+degenerado
+ 4.13
+4.13.1 raiz.id
+4.13.2 A)
